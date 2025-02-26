@@ -12,7 +12,7 @@
 {{--            <x-input-error :messages="$errors->get('email')" class="mt-2" />--}}
 {{--        </div>--}}
 
-        <!-- Email Address -->
+        <!-- nip -->
         <div>
             <x-input-label for="nip" :value="__('nip')" />
             <x-text-input id="nip" class="block mt-1 w-full" type="text" name="nip" :value="old('nip')" required autofocus autocomplete="nip" />
